@@ -1,7 +1,7 @@
 ---
 title: "Why I Don't Trust Telegram"
 date: "2026-04-12"
-readTime: true
+readTime: false
 tags: ["privacy", "freedom", "telegram", "technology"]
 ---
 

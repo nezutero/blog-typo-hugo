@@ -191,8 +191,8 @@ hr {
 }
 
 .header p {
-    font-size: medium;
-    font-family: var(--font-mono);
+    font-size: var(--font-body);
+    font-family: var(--font-body);
     margin-top: 0;
     margin-right: var(--header-menu-side-gap);
 }
@@ -309,7 +309,7 @@ footer a {
 /* Social Links */
 
 .social-links {
-    font-size: small;
+    font-size: var(--p-font-size);
     padding: 12px 0;
     margin-bottom: var(--social-links-bottom-margin);
     display: flex;
@@ -318,7 +318,7 @@ footer a {
 }
 
 .social-links a {
-    font-family: var(--font-mono);
+    font-family: var(--font-body);
     text-decoration: underline;
 }
 

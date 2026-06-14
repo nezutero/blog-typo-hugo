@@ -1,6 +1,6 @@
 baseURL = 'https://nezutero.dev'
 languageCode = 'en-us'
-title = "nezutero's blog"
+title = "nezutero"
 
 [taxonomies]
 tag = 'tags'
@@ -17,13 +17,13 @@ colorPalette = 'default'
 hideHeader = false
 
 # Intro on main page, content in markdown
-homeIntroTitle = "I think therefore I am"
+homeIntroTitle = ""
 homeIntroContent = """
-I'm Dimitri Nesterenko, a software engineer interested in various topics, including algorithms, math, Linux and FOSS, philosophy, and reading. 
+I'm Dimitri Nesterenko, a computer science student interested in various topics, including algorithms, math, Linux and FOSS, philosophy, and reading. 
 
 This website is my connector to the world and my public journal, where I share thoughts and experiences that I hope will be useful or interesting to someone.
 
-Feel free to read more [about me](/about) or explore my [posts](/posts).
+Feel free to read more [about me](/about) or explore my [blog](/posts).
 """
 
 singleDateFormat = '2 January 2006'
@@ -48,19 +48,19 @@ home = "~"
 
 # Social links
 [[params.social]]
-name = "Github"
+name = "github"
 url = "https://github.com/nezutero"
 
 [[params.social]]
-name = "Linkedin"
-url = "https://www.linkedin.com/in/nezutero/"
-
-[[params.social]]
-name = "Email"
+name = "email"
 url = "mailto:me@nezutero.dev"
 
 [[params.social]]
-name = "RSS"
+name = "linkedin"
+url = "https://www.linkedin.com/in/nezutero/"
+
+[[params.social]]
+name = "rss"
 url = "/posts/index.xml"
 
 # Main menu pages
@@ -69,23 +69,23 @@ url = "/posts/index.xml"
 # url = "/"
 
 [[params.menu]]
-name = "Home"
+name = "home"
 url = "/"
 
 [[params.menu]]
-name = "Posts"
+name = "posts"
 url = "/posts"
 
 [[params.menu]]
-name = "About"
+name = "whoami"
 url = "/about"
 
 [[params.menu]]
-name = "Library"
+name = "library"
 url = "/library"
 
 [[params.menu]]
-name = "Tags"
+name = "tags"
 url = "/tags"
 
 # Syntax highlight on code blocks
